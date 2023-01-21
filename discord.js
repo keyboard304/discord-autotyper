@@ -3,16 +3,12 @@ const {types} = require("./utils/types");
 
 // list all the words here, will pick them randomly, doesn't matter how many!
 const words = [
-    "hey",
-    "hello",
-    "test",
-    "sell",
-    "jay",
-    "javascript",
+    "!work",
+    "am friendly",
 ]
 let logCount = 0;
 
-const BASE_URL = 'https://discord.com';
+const BASE_URL = 'https://discord.com/channels/1064944042774888458/1066461058245595158';
 // change this & enter the channel url
 const discord = {
     browser: null,
@@ -125,7 +121,7 @@ const discord = {
 
             // change the first number for minutes
             // 3 * 60 * 1000 = 180000ms === 3 minutes
-            setInterval(randomWord, delay * 60 * 1000)
+            setInterval(randomWord, delay .30* 60 * 1000)
 
     }
 }
